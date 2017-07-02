@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRIExpressions.VS2010", "MRIExpressions\MRIExpressions.VS2010.csproj", "{EB8FC3A3-93E8-457B-B281-FAFA5119611A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MRIExpressionsSetup", "MRIExpressionsSetup\MRIExpressionsSetup.vdproj", "{FC49D161-AC65-4D67-BE75-2679F919B123}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InstallExtensions", "InstallExtensions", "{21AC7A62-3151-47CF-A8D7-FBEFDAA0E96B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLangExtension", "InstallExtensions\UserLangExtension\UserLangExtension.csproj", "{63C0446D-608B-40B2-BEB8-B45C9781C2FE}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cbwright.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = InstallExtensions\\UserLangExtension\\UserLangExtension.csproj
+		SccProjectTopLevelParentUniqueName1 = MRIExpressions.VS2010.sln
+		SccProjectName1 = InstallExtensions/UserLangExtension
+		SccLocalPath1 = InstallExtensions\\UserLangExtension
+		SccProjectUniqueName2 = MRIExpressions\\MRIExpressions.VS2010.csproj
+		SccProjectName2 = MRIExpressions
+		SccLocalPath2 = MRIExpressions
+		SccProjectUniqueName3 = MRIExpressionsSetup\\MRIExpressionsSetup.vdproj
+		SccProjectName3 = MRIExpressionsSetup
+		SccLocalPath3 = MRIExpressionsSetup
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EB8FC3A3-93E8-457B-B281-FAFA5119611A}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC49D161-AC65-4D67-BE75-2679F919B123}.Debug|Any CPU.ActiveCfg = Debug
+		{FC49D161-AC65-4D67-BE75-2679F919B123}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{FC49D161-AC65-4D67-BE75-2679F919B123}.Debug|x86.ActiveCfg = Debug
+		{FC49D161-AC65-4D67-BE75-2679F919B123}.Release|Any CPU.ActiveCfg = Release
+		{FC49D161-AC65-4D67-BE75-2679F919B123}.Release|Mixed Platforms.ActiveCfg = Release
+		{FC49D161-AC65-4D67-BE75-2679F919B123}.Release|x86.ActiveCfg = Release
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63C0446D-608B-40B2-BEB8-B45C9781C2FE} = {21AC7A62-3151-47CF-A8D7-FBEFDAA0E96B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rules>
+  <rule default="true" display="inline" type="mri" preservespaces="true" alignoperators="false">
+    <separator minoccurs="0" maxoccurs="0" separatorignore="|">,</separator>
+  </rule>
+  <rule keyword="BLANK" display="inline" type="mri" />
+  <rule keyword="CALC" display="inline" type="mri" alignoperators="true" preservespaces="false" />
+  <rule keyword="CELL" display="inline" type="mri" />
+  <rule keyword="CREATEAPINV" display="inline" type="mri">
+    <separator minoccurs="0" maxoccurs="0" separatorignore="|">,</separator>
+  </rule>
+  <rule keyword="FORMAT" display="inline" type="mri">
+    <separator minoccurs="1" maxoccurs="1" separatorignore="|">,</separator>
+  </rule>
+  <rule keyword="IF" display="block" type="mri" preservespaces="true">
+    <separator minoccurs="2" maxoccurs="2" separatorignore="|">,</separator>
+    <predicate position="0" preservespaces="false" alignoperators="true"/>
+  </rule>
+  <rule keyword="LENGTH" display="inline" type="mri" />
+  <rule keyword="SELECT" display="block" type="mri" preservespaces="true" >
+    <separator minoccurs="0" maxoccurs="0" separatorignore="|">,</separator>
+  </rule>
+  <rule keyword="SQL" display="block" type="mri" preservespaces="true">
+    <adapter formatter="SqlFormatter" />
+  </rule>
+  <rule keyword="SQLCNT" display="block" type="mri" preservespaces="true" />
+  <rule keyword="SQLLIST" display="inline" type="mri" preservespaces="false" />
+  <rule keyword="TOT" display="inline" type="mri" alignoperators="true" preservespaces="false" />
+  <operators>
+    <operator spacebefore="true" newline="inline">AND</operator>
+    <operator spacebefore="true" spaceafter="true" newline="none">NOT</operator>
+    <operator spacebefore="true" spaceafter="true" newline="none">OR</operator>
+    <operator spacebefore="true" spaceafter="true" newline="none">+</operator>
+    <operator newline="rightindent">(</operator>
+    <operator newline="leftindent">)</operator>
+  </operators>
+  <linerules>
+    <linerule name="OpenBraceSpace" type="suppressspace" pattern="\{\s*$" />
+    <linerule name="CloseBraceSpace" type="suppressspace" pattern="\}\s*$" />
+    <linerule name="OpenBracketSpace" type="suppressspace" pattern="\(\s*$" />
+    <linerule name="CommaSpace" type="suppressspace" pattern=",\s*$" />
+    <linerule name="PipeSpace" type="suppressspace" pattern="\|\s*$" />
+    <linerule name="BlankSpace" type="suppressspace" pattern="^\s*$" />
+  </linerules>
+</rules>

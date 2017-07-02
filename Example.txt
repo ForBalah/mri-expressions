@@ -1,0 +1,23 @@
+VAR{comment! but poor format style below}
+IF { BLANK{CELL{ABC } }AND   ( CELL{
+		BE} OR
+		CELL{DC})= [ENTLIST ]
+	,
+SQL{SELECT 1
+FROM
+	A
+WHERE
+	A.B IN    ('1','2','CELL{JKNU}')
+	}   
+	
+	, AND xyz= 3 SELECT{A,1,
+	2,3} -|a,b,c|  }
+	
+CALC{FIX{ADFASD} + 
+RAW{wfaef}     }		
+				
+	
+	FORMAT{[ENDPD],PERIOD}BI CELL{ENTITYID} SQL{SELECT RIGHT('00' + CAST(COUNT(*) + 1 AS VARCHAR(10)), 2) FROM INVC WHERE INVOICE LIKE 'FORMAT{[ENDPD],PERIOD}BI CELL{ENTITYID}%'}
+
+	
+SQL{-- hooray for test sql }

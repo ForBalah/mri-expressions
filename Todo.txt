@@ -1,0 +1,10 @@
+TODO:
+-----
+- count indents which happen outside the start of a rule. use directive to do so.
+- count indents before any token processing for a line
+- 		}, 
+	} returning 1 too many lines
+- add 'adapter' to rules which will link to another dll to post process the contents?
+- format sql
+	make sure functions inside sql are ignored.
+- add a new keyword colour group for (possibly) web group of functions
