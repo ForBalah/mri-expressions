@@ -4,9 +4,11 @@ It's a plugin for Notepad++ (that still works as of version 7.4.2) that highligh
 
 ### Features ###
 **Syntax highlighting**
+
 ![Sytax highlighing](./syntax-highlighting.png)
 
 **Code indenting**
+
 ![Code indenting](./code-indenting.png)
 
 ### Issues ###
